@@ -15,5 +15,6 @@ public class ye {
 
         System.out.print("A soma desses dois números é: "+ sum);
 
+        System.out.print("oie");
     }
 }
