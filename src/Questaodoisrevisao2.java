@@ -3,21 +3,9 @@ import java.util.Scanner;
 
 public class Questaodoisrevisao2 {
 
-    public static void vetmenorvalor () {
-        Scanner input = new Scanner(System.in);
-
-        int[] vetor = new int[3];
-
-        System.out.println("digite os 3 valores do vetor: ");
-        vetor[0] = input.nextInt();
-        vetor[1] = input.nextInt();
-        vetor[2] = input.nextInt();
-
-        System.out.println("vetor: ");
+    public static void vetmenorvalor (int[] vetor) {
 
         System.out.println(Arrays.toString(vetor));
-
-        System.out.println("menor valor do vetor: ");
 
             if (vetor[0] < vetor[1] && vetor[0] < vetor[2]) {
 
@@ -36,6 +24,18 @@ public class Questaodoisrevisao2 {
     }
 
     public static void main(String[] args) {
-        vetmenorvalor();
+        Scanner input = new Scanner(System.in);
+
+        int[] vetor = new int[3];
+
+        System.out.print("digite os 3 valores do vetor: ");
+
+        vetor[0] = input.nextInt();
+        vetor[1] = input.nextInt();
+        vetor[2] = input.nextInt();
+
+        System.out.println("vetor: ");
+
+        vetmenorvalor(vetor);
     }
 }

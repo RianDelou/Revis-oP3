@@ -11,8 +11,12 @@ public class Questaotresrevisao2 {
         return true;
     }
     public static void main(String[] args) {
-        //digitar o número para verificar aqui
-        if (primoverdadeiro(733)) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Digite o número: ");
+        int numeroVerificar = input.nextInt();
+
+        if (primoverdadeiro(numeroVerificar)) {
             System.out.print("é primo! ");
         } else
             System.out.print("não é primo! ");

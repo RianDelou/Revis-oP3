@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Questaoquatrorevisao2 { //não consegui terminar, fiquei com dúvida
     public static void limitedosnumeros(int limiteInferior, int limiteSuperior) {
@@ -13,6 +14,14 @@ public class Questaoquatrorevisao2 { //não consegui terminar, fiquei com dúvid
     }
 
     public static void main(String[] args) {
-        limitedosnumeros(2, 20);
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Digite o limite inferior: ");
+        int limiteInferior = input.nextInt();
+
+        System.out.println("Digite o limite superior: ");
+        int limiteSuperior = input.nextInt();
+
+        limitedosnumeros(limiteInferior, limiteSuperior);
     }
 }
