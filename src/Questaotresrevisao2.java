@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Numeroprimo {
+public class Questaotresrevisao2 {
 
     public static boolean primoverdadeiro(int numeroVerificar) {
         for(int i = 2; i < numeroVerificar; i++) {

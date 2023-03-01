@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Vetmenorvalor {
+public class Questaodoisrevisao2 {
 
     public static void vetmenorvalor () {
         Scanner input = new Scanner(System.in);

@@ -1,4 +1,4 @@
-public class Matriztransposta {
+public class Questaoumrevisao2 {
     public static void matrizTransposta() {
 
         int[][] matriz = new int[3][3];
