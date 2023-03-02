@@ -28,7 +28,6 @@ public class Questaoquintarevisao2 {
         if(numeroparafatorar == 1) {
 
             return 1;
-
         } else {
 
             return fatorialrecursiva(numeroparafatorar - 1) * numeroparafatorar;
